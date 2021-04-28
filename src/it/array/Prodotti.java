@@ -15,7 +15,7 @@ public class Prodotti {
 				
 	}
 	
-//	Creo i metodi get e set per la variabile Nome 
+//	Creo i metodi get e set per la variabile Nome .
 	
 	 public String  getNome() {
 		 return nome ;
@@ -24,7 +24,7 @@ public class Prodotti {
 		 this.nome = nome;
 	 }
 	
-//	 Creo i metodi get() e set() per la variabile marca
+//	 Creo i metodi get() e set() per la variabile marca.
 	 
 	 public String getMarca() {
 		 return marca;
@@ -34,7 +34,7 @@ public class Prodotti {
 		 this.marca = marca ;
 	 }
 	 
-//	 Creo i metodi get() e set() per la variabile prezzo
+//	 Creo i metodi get() e set() per la variabile prezzo .
   	 
 	 public double getPrezzo() {
 		 return prezzo;
@@ -43,7 +43,7 @@ public class Prodotti {
 		 this.prezzo = prezzo;
 	 }
 	 
-//	 Sovrascrivo tramite @Override 
+//	 Sovrascrivo tramite @Override convertendo in stringa il risultato dell'oggetto .
 	 
 	 @Override
 	 public String toString() {
